@@ -72,18 +72,32 @@ header nav{
 }
 
 /*main*/
-
+/*demo*/
 .demo{
     background-color: var(--light);
 }
 
 .secondary_soft{
     background-color: #b4ddfe;
+    border: 1px solid black;
 }
+
 .debug, .secondary_soft{
     height: 250px;
 }
 
+/*planning*/
 
+
+.planning{
+    background-color: var(--primary);
+}
+
+.accent{
+    
+        background-color: var(--accent);
+        height: 400px;
+        border: 1px solid black;
+}
 
 
