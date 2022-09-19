@@ -3,3 +3,12 @@
     padding: 0;
     margin: 0;
 }
+:root{
+    --primary: #9793e5;
+    --secondry:#0084fd;
+    --secondary-soft: #b4ddfe;
+    --accent: #fdc15f;
+    --darker: #000;
+    --dark: #323332;
+    --light: #fffefe;
+}
