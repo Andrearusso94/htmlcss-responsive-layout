@@ -120,6 +120,17 @@ header nav{
     background-color: aqua;
 }
 
+/*benefits*/
 
+.benefits{
+    background-color: var(--primary);
+}
 
+.light{
+    background-color: var(--light);
+    height: 150px;
+    border: 1px solid black;
+    width: 30%;
+    margin: 1rem;
+}
 
