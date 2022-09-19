@@ -148,8 +148,6 @@ ul li{
     background-color: var(--light);
     height: 150px;
     border: 1px solid black;
-    width: 30%;
-    margin: 1rem;
 }
 
 /*about*/
@@ -178,22 +176,33 @@ footer{
 /************************************************
     SOLUZIONE RESPONSIVE
  ************************************************/
- @media all and (min-width: 768px) and (max-width: 1160px) { 
+/*@media all and (min-width: 768px) and (max-width: 1160px) { 
     .container{
      width: 100%;
     }
    }
- 
+ */
   @media screen and (max-width: 768px ){
      .container{
-         width: 768px;
+         width: 80%;
+         
+     }
+     .lg_mob_8{
+        width: calc(100%/12 * 12);
+        flex-wrap: wrap;
+        margin: auto;
+        margin-bottom: 1rem;
+     }
+     .lg_mob_6{
+        width: calc(100% /12 * 6);
+        
      }
  
-     @media all and (min-width: 480px) and (max-width: 768px) { 
+   /*  @media all and (min-width: 480px) and (max-width: 768px) { 
          .container{
           width: 100%;
          }
-        }
+        }*/
  }
   @media screen and (max-width: 480px ) {
      .container{
@@ -205,11 +214,13 @@ footer{
      }
      
      .lg_mob_12{
-        width: calc(100%/12 *12);
+        width: calc(100%/12 * 12);
         
         margin: auto;
         margin-bottom: 1rem;
      }
+
+     
 
      .partner{
         flex-wrap: wrap;
