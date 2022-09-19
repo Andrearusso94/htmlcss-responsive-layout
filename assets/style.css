@@ -12,3 +12,23 @@
     --dark: #323332;
     --light: #fffefe;
 }
+
+header{
+    background-color: var(--secondry);
+}
+.debug .logo, .main_menu{
+    height: 50px;
+    border: 2px solid black;
+    width: 400px;
+}
+.container{
+ width: 80%;
+ margin: 0 auto;
+}
+header nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 0;
+}
+
