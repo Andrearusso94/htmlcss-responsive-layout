@@ -51,7 +51,8 @@
 }
 
 section{
-    padding: 1.5rem;
+    padding: 2rem;
+    margin-bottom: 1.5rem;
 }
 
 /*header*/
@@ -99,5 +100,26 @@ header nav{
         height: 400px;
         border: 1px solid black;
 }
+/*partner*/
+
+
+.partners{
+    background-color: var(--light);
+    
+    border: 1px solid black;
+}
+
+.partner{
+    display: flex;
+    height: 150px;
+    border: 1px solid blue;
+    margin-bottom:1.5rem;
+    background-color: var(--primary);
+}
+.avatar{
+    background-color: aqua;
+}
+
+
 
 
