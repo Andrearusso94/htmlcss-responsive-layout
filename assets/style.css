@@ -137,9 +137,14 @@ ul li{
 .secondary{
     padding:1.5rem;
     width: 100%;
-   text-align: center;
+    text-align: center;
 }
-
+.under{
+    margin-top: 1rem;
+    width: 95%;
+    justify-content: space-between;
+    
+}
 .icon{
     color: #0084fd;
     font-size: 3.5rem;
@@ -155,9 +160,7 @@ ul li{
     font-weight: 400;
 }
 
-.debug, .secondary_soft{
-    height: 250px;
-}
+
 
 /*planning*/
 
@@ -230,12 +233,12 @@ footer{
 /************************************************
     SOLUZIONE RESPONSIVE
  ************************************************/
-/*@media all and (min-width: 768px) and (max-width: 1160px) { 
+@media all and (min-width: 768px) and (max-width: 1160px) { 
     .container{
      width: 100%;
     }
    }
- */
+ 
   @media screen and (max-width: 768px ){
      .container{
          width: 80%;
@@ -251,13 +254,13 @@ footer{
         width: calc(100% /12 * 6);
         
      }
- 
-   /*  @media all and (min-width: 480px) and (max-width: 768px) { 
+    }
+    @media all and (min-width: 480px) and (max-width: 768px) { 
          .container{
           width: 100%;
          }
-        }*/
- }
+        }
+ 
   @media screen and (max-width: 480px ) {
      .container{
          width: 80%;
@@ -280,5 +283,6 @@ footer{
         flex-wrap: wrap;
      }
   }
+  
  
  
