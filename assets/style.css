@@ -134,3 +134,10 @@ header nav{
     margin: 1rem;
 }
 
+/*about*/
+
+.debug{
+    height: 300px;
+    background-color: #0084fd;
+    border: 1px solid black;
+}
