@@ -168,12 +168,20 @@ ul li{
 .planning{
     background-color: var(--primary);
 }
-
-.accent{
-    
-        background-color: var(--accent);
-        height: 400px;
-        border: 1px solid black;
+.strategic{
+    text-align: center;
+}
+.strategic img{
+    width: 50%;
+    margin: 1.5rem 0;
+}
+.strategic h2{
+    color: var(--light);
+    margin: 1.5rem 0;
+}
+.strategic p{
+    margin: 2.5rem 0;
+    color: var(--light);
 }
 /*partner*/
 
