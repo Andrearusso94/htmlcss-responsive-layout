@@ -168,12 +168,13 @@ ul li{
 .planning{
     background-color: var(--primary);
 }
-.strategic{
+.strategic, .app_development{
     text-align: center;
 }
 .strategic img{
     width: 50%;
     margin: 1.5rem 0;
+    
 }
 .strategic h2{
     color: var(--light);
@@ -182,6 +183,13 @@ ul li{
 .strategic p{
     margin: 2.5rem 0;
     color: var(--light);
+}
+.app_development  {
+    width: 60%;
+    background-color: #fffefe;
+}
+.app_development img{
+    width: 80%;
 }
 /*partner*/
 
