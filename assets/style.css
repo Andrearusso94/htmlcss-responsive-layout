@@ -141,3 +141,16 @@ header nav{
     background-color: #0084fd;
     border: 1px solid black;
 }
+
+/*call to action*/
+.call_to_action{
+    background-color: #9793e5;
+    min-height: 300px;
+}
+
+/*footer*/
+footer{
+    background-color: #323332;
+    height:200px;
+    margin-top: -1.5rem;
+}
