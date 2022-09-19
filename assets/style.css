@@ -172,3 +172,48 @@ footer{
     height:200px;
     margin-top: -1.5rem;
 }
+
+
+
+/************************************************
+    SOLUZIONE RESPONSIVE
+ ************************************************/
+ @media all and (min-width: 768px) and (max-width: 1160px) { 
+    .container{
+     width: 100%;
+    }
+   }
+ 
+  @media screen and (max-width: 768px ){
+     .container{
+         width: 768px;
+     }
+ 
+     @media all and (min-width: 480px) and (max-width: 768px) { 
+         .container{
+          width: 100%;
+         }
+        }
+ }
+  @media screen and (max-width: 480px ) {
+     .container{
+         width: 80%;
+     }
+     .row {
+         flex-direction: column;
+         align-items: center;
+     }
+     
+     .lg_mob_12{
+        width: calc(100%/12 *12);
+        
+        margin: auto;
+        margin-bottom: 1rem;
+     }
+
+     .partner{
+        flex-wrap: wrap;
+     }
+  }
+ 
+ 
