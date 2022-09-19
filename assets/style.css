@@ -95,10 +95,64 @@ ul li{
 .demo{
     background-color: var(--light);
 }
+.card {
+    border-radius: 10px;
+    background-color: var(--secondary-soft);
+    width: 95%;
+}
+.primary{
+    display: flex;
+}
+.application{
+    width: 45%;
+    padding: 2.5rem;
+}
+.application h1{
+    margin-bottom: 1.5rem ;
+}
+.application h1{
+ color: var(--secondry);
+}
+.application p{
+    color: var(--dark);
+    font-weight: 400;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+.app_store{
+  background-color: var(--secondry);
+  color: #fffefe;
+  padding:0.75rem;
+  border-radius: 2.5rem;
+}
+.images{
+    width: 45%;
+    margin-left: 2.5rem;
+    padding-top: 3.5rem;
+}
+.images img{
+    width: 60%;
+    margin-left: 2.5rem;
+}
+.secondary{
+    padding:1.5rem;
+    width: 100%;
+   text-align: center;
+}
 
-.secondary_soft{
-    background-color: #b4ddfe;
-    border: 1px solid black;
+.icon{
+    color: #0084fd;
+    font-size: 3.5rem;
+}
+.secondary h2{
+    color: #0084fd;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+
+.secondary p{
+    color: var(--dark);
+    font-weight: 400;
 }
 
 .debug, .secondary_soft{
