@@ -30,6 +30,8 @@ img{
     max-width: 100%;
 }
 
+[class^="col_"]{padding: 0 1rem;}
+
 .col_2{
     width: calc(100% / 12 * 2);
 }
@@ -277,13 +279,14 @@ ul li{
 }
 .r_benefits{
    row-gap: 1.5rem;
-  
+   
+   
 }
 .light{
     background-color: var(--light);
     color: #9793e5;
     border-radius: 2rem;
-    padding: 1.5rem;
+    padding: 2.5rem;
     
    
 }
