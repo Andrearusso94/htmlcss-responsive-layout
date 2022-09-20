@@ -12,6 +12,9 @@
     --dark: #323332;
     --light: #fffefe;
 }
+body{
+    font-family: 'PT Sans';
+}
 .container{
  width: 80%;
  margin: 0 auto;
@@ -23,7 +26,9 @@
     
 }
 
-
+img{
+    max-width: 100%;
+}
 
 .col_2{
     width: calc(100% / 12 * 2);
@@ -115,9 +120,10 @@ ul li{
 }
 .application p{
     color: var(--dark);
-    font-weight: 400;
+    font-weight: bold;
     margin-top: 1.5rem;
     margin-bottom: 1.5rem;
+    line-height: 1.5rem;
 }
 .app_store{
   background-color: var(--secondry);
@@ -157,7 +163,8 @@ ul li{
 
 .secondary p{
     color: var(--dark);
-    font-weight: 400;
+    font-weight: bold;
+    line-height: 1.5rem;
 }
 
 
@@ -186,12 +193,34 @@ ul li{
 }
 .app_development  {
     width: 60%;
+    height: 85%;
     background-color: #fffefe;
+    border-radius: 1.5rem;
+    margin:auto;
+    margin-top: 5.4rem;
 }
 .app_development img{
-    width: 80%;
+    width: 60%;
+    margin-bottom: 1.5rem;
 }
-/*partner*/
+
+.app_development p {
+    margin: 2rem 0;
+    font-style:italic;
+    font-weight: 1.5rem;
+}
+
+.arrow{
+    font-size: 2rem;
+    background-color: var(--primary);
+    border-radius: 50%;
+    padding:0.75rem;
+}
+.arrow a{
+    text-decoration: none;
+    color: #000;
+}
+/*partner*/ 
 
 
 .partners{
@@ -249,7 +278,17 @@ footer{
 /************************************************
     SOLUZIONE RESPONSIVE
  ************************************************/
-@media all and (min-width: 768px) and (max-width: 1160px) { 
+@media screen and (min-width:1200px){
+    header .main_menu{
+        display: flex;
+    }
+    header .mobile_nav{
+        display: none;
+    }
+    
+}
+
+ @media all and (min-width: 768px) and (max-width: 1160px) { 
     .container{
      width: 100%;
     }
@@ -272,13 +311,22 @@ footer{
      }
     }
     @media all and (min-width: 480px) and (max-width: 768px) { 
-         .container{
+         header .main_menu{
+            display: none;
+         }
+        
+        .container{
           width: 100%;
          }
         }
  
   @media screen and (max-width: 480px ) {
-     .container{
+    header .main_menu{
+        display: none;
+     }
+    
+    
+    .container{
          width: 80%;
      }
      .row {
