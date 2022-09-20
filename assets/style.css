@@ -238,7 +238,9 @@ ul li{
     font-size: 1.5rem;
     margin: 1.5rem 0;
 }
-
+.heading p{
+    color: #000;
+}
 .partner{
     display: flex;
     border-radius: 2rem;
@@ -418,7 +420,7 @@ footer{
 /************************************************
     SOLUZIONE RESPONSIVE
  ************************************************/
-@media screen and (min-width:1200px){
+@media screen and (min-width:1160px){
     header .main_menu{
         display: flex;
     }
@@ -432,6 +434,11 @@ footer{
     .container{
      width: 100%;
     }
+    header .main_menu{
+        display: none;
+    }
+    
+    
    }
  
   @media screen and (max-width: 768px ){
@@ -473,18 +480,47 @@ footer{
          flex-direction: column;
          align-items: center;
      }
-     
+     .card{
+        width: 100%;
+     }
      .lg_mob_12{
         width: calc(100%/12 * 12);
-        
         margin: auto;
         margin-bottom: 1rem;
      }
 
-     
+     .card_primary{
+        width: 80%;
+        margin: auto;
+     }
+
+     .primary{
+        flex-direction: column;
+     }
+     .application{
+        width: 100%;
+     }
+
+     .images{
+        width: 100%;
+        margin: 0 0;
+        padding:0;
+     }
+
+     .app_development{
+        margin-top: 0;
+     }
 
      .partner{
         flex-wrap: wrap;
+        text-align: center;
+     }
+     .presentation {
+        width: 100%;
+     }
+
+     .i_about{
+        margin:0;
      }
   }
   
