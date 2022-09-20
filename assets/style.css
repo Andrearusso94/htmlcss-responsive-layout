@@ -211,6 +211,7 @@ ul li{
     margin: 2rem 0;
     font-style:italic;
     font-weight: 1.5rem;
+    color: #000;
 }
 
 .arrow{
@@ -330,6 +331,7 @@ ul li{
     margin: 1.5rem 0;
     text-align: justify;
     font-weight: 1.5rem;
+    color: #000;
 }
 .i_about{
     width: 70%;
@@ -361,8 +363,42 @@ ul li{
 /*call to action*/
 .call_to_action{
     background-color: #9793e5;
-    min-height: 300px;
+    text-align: center;
+    padding:1.5rem;
 }
+.action h4, h2, h1{
+    margin:2.5rem 0;
+}
+.action h4{
+    color: #323332;
+}
+
+.action h2, p{
+    color: #fffefe;
+}
+
+.action h2{
+    font-size: 2rem;
+}
+
+.action h1{
+    color: #fdc15f;
+    font-size: 4.5rem;
+}
+.action p{
+    margin: 2rem 0;
+}
+
+.started{
+    background-color: #fffefe;
+     padding: 1.5rem 3.5rem;
+     border-radius: 50%;
+}
+ .started a{
+    color:#9793e5;
+    text-decoration: none;
+    font-weight: bold;
+ }
 
 /*footer*/
 footer{
