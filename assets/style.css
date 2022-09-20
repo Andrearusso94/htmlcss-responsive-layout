@@ -177,6 +177,7 @@ ul li{
 }
 .strategic, .app_development{
     text-align: center;
+    padding: 2.5rem;
 }
 .strategic img{
     width: 50%;
@@ -193,7 +194,7 @@ ul li{
 }
 .app_development  {
     width: 60%;
-    height: 85%;
+    height: 80%;
     background-color: #fffefe;
     border-radius: 1.5rem;
     margin:auto;
