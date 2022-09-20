@@ -434,7 +434,7 @@ footer{
     .container{
      width: 100%;
     }
-    header .main_menu{
+    header .mobile_nav{
         display: none;
     }
     
@@ -443,9 +443,21 @@ footer{
  
   @media screen and (max-width: 768px ){
      .container{
-         width: 80%;
+         width: 100%;
          
      }
+     .primary{
+        display: block;
+     }
+     .application{
+        width: 100%;
+     }
+     .images{
+        width: 100%;
+        margin:0;
+        padding:0;
+     }
+    
      .lg_mob_8{
         width: calc(100%/12 * 12);
         flex-wrap: wrap;
@@ -456,7 +468,44 @@ footer{
         width: calc(100% /12 * 6);
         
      }
+    
+     .strategic img {
+        /* width: 50%; */
+        width: 100%;
+        margin: 1.5rem 0;
     }
+    .strategic  p{
+        text-align: left;
+    }
+    .strategic h2 {
+        font-size: 2.5rem;
+        text-align: left;
+    }
+    .app_development{
+        margin-top: 0;
+    }
+
+    .avatar img{
+        width: 100%;
+        margin:2.5rem 1rem;
+    }
+    
+    .presentation{
+        margin-left: 1rem;
+        width: 100%;
+    }
+
+    .i_about{
+        width: 100%;
+        margin-top: 2.5rem;
+    }
+    .i_about img{
+        width: 100%;
+    }
+    .action p{
+        text-align: center;
+    }
+ }
     @media all and (min-width: 480px) and (max-width: 768px) { 
          header .main_menu{
             display: none;
@@ -492,6 +541,8 @@ footer{
      .card_primary{
         width: 80%;
         margin: auto;
+        
+    
      }
 
      .primary{
