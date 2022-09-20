@@ -403,8 +403,14 @@ ul li{
 /*footer*/
 footer{
     background-color: #323332;
-    height:200px;
     margin-top: -1.5rem;
+}
+.dark_foot{
+    text-align: center;
+    padding: 1.5rem;
+}
+.dark_foot p{
+    margin:1.5rem 0;
 }
 
 
