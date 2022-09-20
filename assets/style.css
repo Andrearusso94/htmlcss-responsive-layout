@@ -268,11 +268,38 @@ ul li{
 .benefits{
     background-color: var(--primary);
 }
+.benefits h2{
+    color: #fffefe;
+    text-align: center;
+    font-size: 2.5rem;
+    
+}
 
 .light{
     background-color: var(--light);
-    height: 150px;
-    border: 1px solid black;
+    color: #9793e5;
+    border-radius: 2rem;
+    padding: 1.5rem;
+    gap: 0.5rem;
+   
+}
+.light h2, h3{
+    color: #9793e5;
+    text-align: left;
+    margin:1rem 0;
+}
+
+.light p{
+    color: #323332;
+    margin: 1rem 0;
+}
+
+.more{
+    background-color: #9793e5;
+    color: #fffefe;
+    padding: 1rem 2rem;
+    border-radius: 2.5rem;
+    
 }
 
 /*about*/
