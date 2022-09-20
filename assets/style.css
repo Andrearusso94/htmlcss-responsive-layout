@@ -226,20 +226,42 @@ ul li{
 
 .partners{
     background-color: var(--light);
+    text-align: center; 
     
-    border: 1px solid black;
+}
+
+.partners h2{
+    color:#9793e5;
+    font-size: 1.5rem;
+    margin: 1.5rem 0;
 }
 
 .partner{
     display: flex;
-    height: 150px;
-    border: 1px solid blue;
-    margin-bottom:1.5rem;
+    border-radius: 2rem;
+    margin:1.5rem 0;
     background-color: var(--primary);
+    text-align: justify;
 }
-.avatar{
-    background-color: aqua;
+.avatar img{
+    width: 60%;
+    border-radius: 60%;
+    margin: 1rem 1rem;
 }
+
+
+.presentation{
+    margin-top: 1.5rem;
+    width: 80%;
+    color: #fffefe;
+    padding: 1rem;
+    font-size: 1.25rem;
+}
+
+.presentation h4{
+    margin-top: 1rem;
+}
+
 
 /*benefits*/
 
